@@ -1,0 +1,25 @@
+name:           HGobstones
+version:        0.1
+cabal-version:  >=1.2
+build-type:     Simple
+author:         root
+
+library
+  hs-source-dirs:  src
+  build-depends:   
+                   base >= 4,
+                   containers,
+                   blank-canvas
+  ghc-options:     -Wall
+  other-modules:   HGobstones
+
+executable HGobstones
+  hs-source-dirs:  src
+  main-is:         Main.hs
+  build-depends:   
+                   base >= 4,
+                   containers,
+                   blank-canvas
+  ghc-options:     -Wall
+  other-modules:   HGobstones
+
