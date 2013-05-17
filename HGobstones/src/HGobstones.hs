@@ -166,5 +166,6 @@ drawColumns = do
 canvas :: Canvas () -> IO ()
 canvas = blankCanvas 3000 . flip send
 
+main :: IO ()
 main = canvas $ do
     drawBoard'
